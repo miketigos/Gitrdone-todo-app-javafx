@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #4fb3be#4fb3be #4fb3be#4fb3be #4fb3be#4fb3be #4fb3be#4fb3be;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemController">
+   <children>
+      <AnchorPane prefHeight="100.0" prefWidth="700.0" style="-fx-background-color: #00838e#00838e;">
+         <children>
+            <Label alignment="CENTER" layoutX="203.0" layoutY="20.0" prefHeight="60.0" prefWidth="295.0" text="Gitr'Done" textFill="#eceff1">
+               <font>
+                  <Font name="Monospaced Regular" size="48.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="228.0" layoutY="168.0" prefHeight="32.0" prefWidth="245.0" text="No Tasks for today...yet" textFill="#f5f2f2">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="addItemButton" fitHeight="52.0" fitWidth="52.0" layoutX="317.0" layoutY="246.0">
+         <image>
+            <Image url="@../assets/baseline_add_task_black_18dp.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
